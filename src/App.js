@@ -11,7 +11,6 @@ function App() {
     });
   });
   const [msg, setmsg] = useState("");
-  console.log(msg);
   return (
     <div className="App">
       <header className="App-header">
