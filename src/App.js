@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   useEffect(() => {
-    fetch("deploy").then((response) => {
+    fetch("/api/deploy").then((response) => {
       response.text().then((data) => {
         setmsg(data);
       });
