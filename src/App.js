@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 function App() {
   useEffect(() => {
-    fetch("http://localhost:8080/deploy").then((response) => {
+    fetch("http://3.94.85.13").then((response) => {
       response.text().then((data) => {
         setmsg(data);
       });
